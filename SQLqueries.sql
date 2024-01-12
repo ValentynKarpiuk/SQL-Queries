@@ -108,6 +108,31 @@ SELECT*
 FROM tableName
 WHERE columnName BETWEEN 40 and 60
 
+14. Keyword 'LIKE' - only for string
+
+- Start with this symbol, for example A: 
+
+SELECT*
+FROM tableName
+WHERE columnName LIKE 'A%'
+
+- Next letter should be ''
+
+SELECT*
+FROM tableName
+WHERE ColumnName LIKE '_o%'
+
+- Select all words which started from B to E 
+
+SELECT*
+FROM tableName
+WHERE columnName LIKE '[B-E]%'
+
+- Select all words which started from D, then from E, then from F
+
+SELECT*
+FROM tableName
+WHERE columnName LIKE '[DEF]%'
 
 
 
