@@ -140,6 +140,16 @@ SELECT*
 FROM tableName
 WHERE ColumnName is null;  (or is not null)
 
+16. Keyword 'ORDER BY' ...  'asc/desc'. Sort in ascending/descending order
+
+SELECT*
+FROM tableName
+ORDER BY columnName asc;  (or with desc)
+
+
+
+
+
 
 */
 
