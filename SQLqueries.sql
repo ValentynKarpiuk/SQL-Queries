@@ -182,9 +182,11 @@ FROM tableName1 a
 LEFT JOIN tableName2 b on a.columnNameN = b.columnNameN
 Order by a.columnName1
 
+20. Keyword UPDATE SET
 
-
-
+UPDATE tableName
+SET columnName1 = 'newData1', columnName2 = 'newData2'
+WHERE columnName = 'id'
 
 */
 
