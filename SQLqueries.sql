@@ -146,6 +146,10 @@ SELECT*
 FROM tableName
 ORDER BY columnName asc;  (or with desc)
 
+17. Numbers of the records in selected column
+
+SELECT count(columnName)
+FROM tableName
 
 
 
