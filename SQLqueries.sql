@@ -134,7 +134,11 @@ SELECT*
 FROM tableName
 WHERE columnName LIKE '[DEF]%'
 
+15. Keyword is null/is not null. Some columns have those status and we want or not see them.
 
+SELECT*
+FROM tableName
+WHERE ColumnName is null;  (or is not null)
 
 
 */
