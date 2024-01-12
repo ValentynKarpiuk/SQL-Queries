@@ -159,6 +159,28 @@ WHERE MaritalStatus = 'S'
 GROUP BY Gender, JobTitle
 HAVING AVG(VacationHours)>40
 
+19. Keyword JOIN 
+
+- INNER JOIN - appears the information which is suitable for both tables 
+
+SELECT a.ColumnName1, b.ColumnName1
+FROM tableName1 a
+INNER JOIN tableName2 b on a.columnNameN = b.columnNameN
+ORDER BY a.columnName1
+
+- RIGHT JOIN - the first table mentioned in query will has the main role
+
+SELECT a.columnName1, b.*
+FROM tableName1 a
+RIGHT JOIN tableName2 b on a.columnNameN = b.columnNameN
+ORDER BY a.columnName1
+
+- LEFT JOIN - the second table mentioned in the query will has the main role
+
+SELECT a.columnName1, b.*
+FROM tableName1 a
+LEFT JOIN tableName2 b on a.columnNameN = b.columnNameN
+Order by a.columnName1
 
 
 
