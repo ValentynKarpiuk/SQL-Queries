@@ -96,7 +96,18 @@ SELECT columnName1, columnName2
 FROM tableName
 WHERE columnName1 = 'D'
 AND
-columnName2 = '2009-01-14';
+columnName2 = '2009-01-14'
+
+SELECT columnName1,…
+FROM Table
+WHERE columnName1 > 3 and columnName2 = 'z' or columnName='valueN'
+
+13. Keyword 'BETWEEN'
+
+SELECT*
+FROM tableName
+WHERE columnName BETWEEN 40 and 60
+
 
 
 
