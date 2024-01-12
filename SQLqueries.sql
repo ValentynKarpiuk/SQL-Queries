@@ -151,6 +151,15 @@ ORDER BY columnName asc;  (or with desc)
 SELECT count(columnName)
 FROM tableName
 
+18. The example with using Keyword GROUP BY and HAVING 
+
+SELECT JobTitle, Gender, sum(VacationHours)
+FROM tableName
+WHERE MaritalStatus = 'S'
+GROUP BY Gender, JobTitle
+HAVING AVG(VacationHours)>40
+
+
 
 
 
